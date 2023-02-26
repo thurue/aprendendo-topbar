@@ -48,7 +48,7 @@ a {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.178);
 
   position: relative;
-  right:3vw;
+  right: 3vw;
   top: 50%;
   transform: translate(0%, -50%);
 
@@ -65,16 +65,15 @@ a:hover {
   transform: translate(0%, -50%);
 }
 
-li{
-  /* padding: 0; */
-list-style: none;
+.list-1 {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 20px;
+  max-width: 50vw;
 
   float: right;
 
-  margin-left: 20px;
-  /* margin-top: 40px; */
-  /* margin: 0px; */
-  max-width: 50vw;
+  list-style: none;
 
   text-decoration: none;
   font-size: 3vh;
@@ -84,14 +83,14 @@ list-style: none;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.178);
 
   position: relative;
-  right:3vw;
+  right: 3vw;
   top: 5vh;
   transform: translate(0%, -50%);
 
   transition: .4s;
 }
 
-li:hover{
+.list-1:hover {
   transition: .4s;
 
   /* line-height: 1px; */
@@ -101,4 +100,30 @@ li:hover{
   top: 4.5vh;
   transform: translate(0%, -50%);
   cursor: pointer;
+}
+
+.list-2 {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style: none;
+
+
+
+  font-size: 3vh;
+  color: white;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.178);
+
+  position: relative;
+  right: 3vw;
+  top: 5vh;
+  transform: translate(0%, -50%);
+
+  transition: .4s;
+}
+
+.list-2-1 {
+  float:left;
+  margin-right: 15px;
 }
