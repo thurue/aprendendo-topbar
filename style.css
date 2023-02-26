@@ -11,13 +11,14 @@ body {
   border-radius: 20px;
   margin-top: 15px;
 
+
+
 }
 
 p {
   margin: 0px;
   padding: 0px;
-
-  float: left;
+  margin-left: 10px;
 
   list-style: none;
   font-size: 3vh;
@@ -25,6 +26,7 @@ p {
   font-weight: 900;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.178);
 
+  float: left;
   position: relative;
   left: 8vw;
   top: 50%;
@@ -39,7 +41,7 @@ a {
 
   margin-left: 20px;
   /* margin: 0px; */
-  max-width: 50vw;
+  /* max-width: 50vw; */
 
   text-decoration: none;
   font-size: 3vh;
@@ -124,7 +126,7 @@ a:hover {
 }
 
 .list-2-1 {
-  float:left;
+  float: left;
   margin-right: 15px;
 
   position: relative;
@@ -143,4 +145,114 @@ a:hover {
   cursor: pointer;
 
   transition: .4s;
+}
+
+@media screen and (max-width: 1080px) {
+
+  /* firts bar config to lower than 1080 */
+  .topbar {
+    height: 10vh;
+    text-align: center;
+  }
+
+  /* parrgraph config to lower than 1080 */
+  p {
+    float: none;
+    position: unset;
+    margin-top: 15px;
+    font-size: 2.5em;
+
+    transform: translate(0%, 0%);
+  }
+
+
+  a {
+    float: none;
+    margin-left: 4vw;
+
+    display: inline-block;
+    position: relative;
+    right: 0;
+    top: 0;
+    transform: translate(0%, 0%);
+
+    transition: .4s;
+
+  }
+
+  a:hover {
+    position: relative;
+    right: .5%;
+    top: 15%;
+    transition: .4s;
+  }
+
+  /* second bat config to lower than 1080 */
+  ul {
+    padding: 0px;
+  }
+
+  .list-1 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 30px;
+    width: 0vw;
+    line-height: 0;
+
+    display: inline;
+    float: none;
+
+
+    position: relative;
+    right: 0px;
+    top: 0px;
+    transform: translate(0%, 0%);
+
+    transition: .4s;
+  }
+
+  .list-1:hover {
+    transition: .4s;
+
+
+    position: relative;
+    right: 4px;
+    top: -4px;
+    cursor: pointer;
+  }
+
+  /* 3 bar config to lower than 1080 */
+
+  .list-2 {
+    text-align: center;
+    float: none;
+
+    position: unset;
+    transform: translate(0%, 0%);
+    }
+
+  .list-2-1 {
+    float: none;
+    margin: auto 15px ;
+    position: unset;
+    transform: translate(0%, 0%);
+    display: inline-block;
+
+    transition: none;
+  }
+
+  .list-2-1:hover {
+    position: relative;
+    right: 5px;
+    top: -5px;
+    transform: translate(0%, 0%);
+    cursor: pointer;
+
+    transition: .5s;
+  }
+
+
+
+
+
 }
