@@ -126,4 +126,21 @@ a:hover {
 .list-2-1 {
   float:left;
   margin-right: 15px;
+
+  position: relative;
+  right: 0;
+  top: 0;
+  transform: translate(0%, 0%);
+
+  transition: .4s;
+}
+
+.list-2-1:hover {
+  position: relative;
+  right: .5vw;
+  top: -.5vh;
+  transform: translate(0%, 0%);
+  cursor: pointer;
+
+  transition: .4s;
 }
