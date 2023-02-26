@@ -64,3 +64,41 @@ a:hover {
   top: 45%;
   transform: translate(0%, -50%);
 }
+
+li{
+  /* padding: 0; */
+list-style: none;
+
+  float: right;
+
+  margin-left: 20px;
+  /* margin-top: 40px; */
+  /* margin: 0px; */
+  max-width: 50vw;
+
+  text-decoration: none;
+  font-size: 3vh;
+  color: white;
+  font-weight: 900;
+  line-height: 1px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.178);
+
+  position: relative;
+  right:3vw;
+  top: 5vh;
+  transform: translate(0%, -50%);
+
+  transition: .4s;
+}
+
+li:hover{
+  transition: .4s;
+
+  /* line-height: 1px; */
+
+  position: relative;
+  right: 3.5vw;
+  top: 4.5vh;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+}
