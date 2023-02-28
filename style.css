@@ -6,11 +6,11 @@ body {
 
 .topbar {
   height: 10vh;
+  overflow: hidden;
   width: 99vw;
   background-color: aqua;
   border-radius: 20px;
   margin-top: 15px;
-
 
 
 }
@@ -18,7 +18,7 @@ body {
 p {
   margin: 0px;
   padding: 0px;
-  margin-left: 10px;
+
 
   list-style: none;
   font-size: 3vh;
@@ -86,7 +86,7 @@ a:hover {
 
   position: relative;
   right: 3vw;
-  top: 5vh;
+  top: 2.5vh;
   transform: translate(0%, -50%);
 
   transition: .4s;
@@ -99,7 +99,7 @@ a:hover {
 
   position: relative;
   right: 3.5vw;
-  top: 4.5vh;
+  top: 2vh;
   transform: translate(0%, -50%);
   cursor: pointer;
 }
@@ -151,15 +151,20 @@ a:hover {
 
   /* firts bar config to lower than 1080 */
   .topbar {
-    height: 10vh;
+    height: auto;
+    padding: 10px;
     text-align: center;
   }
 
   /* parrgraph config to lower than 1080 */
+  .topbar{
+    height: auto;
+    overflow: auto;
+  }
   p {
     float: none;
     position: unset;
-    margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 2.5em;
 
     transform: translate(0%, 0%);
@@ -178,6 +183,8 @@ a:hover {
 
     transition: .4s;
 
+    line-height: auto;
+
   }
 
   a:hover {
@@ -193,29 +200,23 @@ a:hover {
   }
 
   .list-1 {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 30px;
-    width: 0vw;
-    line-height: 0;
-
-    display: inline;
-    float: none;
-
-
-    position: relative;
-    right: 0px;
-    top: 0px;
-    transform: translate(0%, 0%);
-
     transition: .4s;
+
+    display: inline-block;
+    text-align: center;
+    position: unset;
+    float: none;
+    right: 0vw ;
+    top: 0vh;
+    transform: translate(0%, 0%);
+    cursor: pointer;
   }
 
   .list-1:hover {
     transition: .4s;
 
 
-    position: relative;
+    position: unset;
     right: 4px;
     top: -4px;
     cursor: pointer;
@@ -229,11 +230,11 @@ a:hover {
 
     position: unset;
     transform: translate(0%, 0%);
-    }
+  }
 
   .list-2-1 {
     float: none;
-    margin: auto 15px ;
+    margin: auto 15px;
     position: unset;
     transform: translate(0%, 0%);
     display: inline-block;
